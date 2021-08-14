@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> KhareedBaich </title>
+    <link rel="stylesheet" href="khareedbaich.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ctegories">Categories</a></li>
+            <li><a href="#ranking">Ranking</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right"><a href="#sign up">Sign Up</a></li>
+            <li class="topnav-right"><a href="#sign in">Sign In</a></li>
+            <li class="dropdownicon">
+                <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col=1"></div>
+            <div>
+                <h1 class="large">KhareedBaich</h1>
+                <h1 class="large">Making Trade Easy</h1>
+            </div>
+
+
+            <form>
+                <div>
+
+                    <h4>Username</h4>
+                    <input name="Username" type="text" placeholder="Username">
+                    <h4>Password</h4>
+                    <input name="Password" type="text" placeholder="Password">
+                </div>
+            </form>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <header>
+        <h1 class="section2header"> Our Standards</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div class="box">
+                    <div class="icon">
+                        <img src="ranking.png">
+                        <label>Ranking</label>
+                        <p>Ranking for the sellers and rewards for them,so they can improve more and more. </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <div class="box">
+                    <div class="icon">
+                        <img src="business.png">
+                        <label> Business</label>
+                        <p>This website will provide a reliable business environment for both buyers and sellers.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <div class="box">
+                    <div class="icon">
+                        <img src="security.png">
+                        <label>Security</label>
+                        <p>Our aim is to create a platform which is more secure and trusted. Also by minimizing the fraud, buyers can find an authentic and trusted seller.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button class="learnmore">More About Us</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <article>
+                    <p>KhareedBaij.pk is a website for seller to sell the products and for buyers to buy the products. This website has two users the seller which will provide the detail of the selling products in the form of ads. While a buyer will register
+                        himself first . after that he will search and buy the products.</p>
+                </article>
+            </div>
+            <div class="col-3">
+                <div class="slopeicon">
+                    <img src="khareedbaich logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footy">
+        <div class="row">
+            <div class="col-1">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>career</li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <h1>Policy</h1>
+                <ul>
+                    <li>buyer Policy</li>
+                    <li>seller Policy</li>
+                    <li>Payment Policy</li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <h1>Contact</h1>
+                <ul>
+                    <li>khareedbaich@gmail.com</li>
+                    <li>123456789</li>
+                    <li>facebook.com#</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
